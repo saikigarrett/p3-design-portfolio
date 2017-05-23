@@ -1,4 +1,23 @@
 /* Styling */
+
+// Imports
+@import "lg-transitions";
+@import "lightgallery";
+@import "normalize";
+    
+//Styling    
 body {
-    background: red;
+    background: #840c0c;
+}
+
+// Portfolio Items
+figure {
+    background: teal;
+    width: 300px;
+    text-align: center;
+    padding: 1em;
+}
+
+figure img {
+    box-shadow: 2px 2px 2px grey;
 }
