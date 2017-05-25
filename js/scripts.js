@@ -18,5 +18,6 @@ $('header img').attr('src', eval('img' + randNum))
 // Lightgallery
 $('figure').lightGallery({
     selector: 'a',
-    mode: 'lg-lollipop'
+    mode: 'lg-lollipop',
+    thumbnail: 'true';
 });
