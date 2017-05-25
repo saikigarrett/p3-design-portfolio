@@ -7,18 +7,48 @@
     
 //Styling    
 body {
-    background: #840c0c;
+    background: #6f0e0e;
 }
 
+h1 {
+    color: whitesmoke;
+    display: flex;
+}
+
+//Layout
+main {
+    background: #041c2a;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+//RWD header img
+main header img {
+    width: 100%;
+    max-width: 100%;
+}
 
 // Portfolio Items
-figure {
-    background: teal;
-    width: 300px;
-    text-align: center;
-    padding: 1em;
-}
 
 figure img {
     box-shadow: 2px 2px 2px grey;
+    margin: 10px;
+}
+
+// Flexbox Layout
+article {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article figure {
+  background: #115371;
+  padding: 1em;
+  width: 20em;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

@@ -2594,17 +2594,42 @@ template {
 
 /* line 9, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
 body {
-  background: #840c0c; }
+  background: #6f0e0e; }
 
-/* line 14, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
-figure {
-  background: teal;
-  width: 300px;
-  text-align: center;
-  padding: 1em; }
+/* line 13, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+h1 {
+  color: whitesmoke;
+  display: flex; }
 
-/* line 21, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+/* line 19, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+main {
+  background: #041c2a;
+  margin: 0 auto;
+  width: 90%; }
+
+/* line 27, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+main header img {
+  width: 100%;
+  max-width: 100%; }
+
+/* line 34, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
 figure img {
-  box-shadow: 2px 2px 2px grey; }
+  box-shadow: 2px 2px 2px grey;
+  margin: 10px; }
+
+/* line 40, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+/* line 46, /Users/gsaiki/Desktop/p3-design-portfolio/css/styles.scss */
+article figure {
+  background: #115371;
+  padding: 1em;
+  width: 20em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=styles.css.map */
