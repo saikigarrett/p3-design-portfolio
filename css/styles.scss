@@ -7,14 +7,6 @@
 @import "lg-thumbnail"
     
 //Styling    
-body{
-    background: #115371;
-}
-
-h1 {
-    color: whitesmoke;
-    display: flex;
-}
 
 //Layout
 main {
@@ -26,9 +18,11 @@ main {
 
 //RWD header img
 main header img {
-    width: 100%;
-    max-width: 100%;
+    height: 40%;
+    width: auto;
 }
+
+h1
 
 // Portfolio Items
 
